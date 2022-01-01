@@ -1,0 +1,147 @@
+.navebar {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    
+}
+.navebar ul li {
+    display: inline;
+    margin: 15px;
+    list-style: none;
+}
+
+@media (max-width: 30em){
+ html{
+        font-size: 55%;
+    }
+}
+  @media (max-width: 70em){
+html {
+    font-size: 58%;
+}
+}
+@media (max-width: 80em){
+html {
+    font-size: 60%;
+}
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.some {
+color: #000;
+text-decoration: none;
+margin: 15px;
+padding: 1vh;
+}
+.some:hover{
+    color: blue;
+}
+body {
+    
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(226, 224, 222);
+    color: rgb(102, 99, 99);
+}
+.nav-item {
+list-style: none;
+
+}
+.nav-link {
+color: rgb(86, 90, 90);
+text-decoration: none;
+font-size: 1.5rem;
+}
+.nav-link:hover {
+    color: blue;
+}
+.main-body { 
+height: 50vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-weight: 700;
+font-size: 20px;
+
+}
+p {
+ margin-top: 8rem;
+  font-weight: 700;
+  font-size: 25px;  
+}
+.social-links {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+footer {
+ width: 100%;   
+margin-top: 8rem;
+
+}
+h2{
+    margin-left: 8rem;
+    padding: 2rem;
+}
+
+
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
