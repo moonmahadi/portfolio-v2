@@ -1,8 +1,12 @@
-# portfolio
-## You can see the hosted website on this [Address](https://quizzical-bhaskara-7bdf85.netlify.com/)
+# My portfolio project
+
+## You can see the hosted website on this [Address](https://muna-portfolio.herokuapp.com/) deployed to Heroku
+
 ### Stack used to build this site.
-* HTML5
-* CSS
-* JavaScript
-* git
-* Netlify CI/CD Pipe line
+
+- HTML5
+- CSS
+- PHP
+- JavaScript
+- git
+- Heroku to serve the site
