@@ -12,3 +12,4 @@
 - JavaScript
 - git
 - Heroku to serve the site
+- Figmna for design the web
